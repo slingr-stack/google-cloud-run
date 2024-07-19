@@ -24,7 +24,7 @@ Repo: [https://github.com/slingr-stack/google-cloud-run-package](https://github.
 ### Name: `serviceAccountEmail`
 
 This is the service account for Google Cloud Run, providing more secure access compared to the API key.
-More information](https://cloud.google.com/run/docs/securing/service-identity?hl=es-419&_gl=1*1yhyics*_up*MQ..&gclid=CjwKCAjwqMO0BhA8EiwAFTLgIFO0lq1Y-FSj3e3non2DOmPIoYiWuafPSXX5BbMF8gX3d8MJuxuU1xoC2uoQAvD_BwE&gclsrc=aw.ds)
+[More information](https://cloud.google.com/run/docs/securing/service-identity?hl=es-419&_gl=1*1yhyics*_up*MQ..&gclid=CjwKCAjwqMO0BhA8EiwAFTLgIFO0lq1Y-FSj3e3non2DOmPIoYiWuafPSXX5BbMF8gX3d8MJuxuU1xoC2uoQAvD_BwE&gclsrc=aw.ds)
 
 ### Name: `privateKey`
 
