@@ -275,7 +275,7 @@ function getJsonWebToken() {
     return sys.utils.crypto.jwt.generate(
         {
             iss: config.get("serviceAccountEmail"),
-            aud: config.get('GOOGLECLOUDRUN_API_BASE_URL'),
+            aud: 'https://oauth2.googleapis.com/token',
             scope: scopesGlobal,
             iat: currentTime,
             exp: futureTime
