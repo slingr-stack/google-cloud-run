@@ -225,7 +225,8 @@ let GoogleCloudRun = function (options) {
 
 function setApiUri(options) {
     let url = options.path || "";
-    const API_URL = config.get("GOOGLECLOUDRUN_API_BASE_URL")
+    const API_REGION = config.get("region")
+    const API_URL = 'https://' + API_REGION + '.googleapis.com/v2'
     options.url = API_URL + url;
     sys.logs.debug('[googlecloudrun] Set url: ' + options.path + "->" + options.url);
     return options;

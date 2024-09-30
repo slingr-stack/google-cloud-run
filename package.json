@@ -23,12 +23,14 @@
             "description": "The private key associated to the service account",
             "type": "password",
             "required": true
-        }
-        ,{
-            "name": "GOOGLECLOUDRUN_API_BASE_URL",
-            "label": "Google Cloud Run Api Url",
-            "type": "label",
-            "value": "https://run.googleapis.com/v2"
+        },
+        {
+            "name": "region",
+            "label": "Google Cloud Region",
+            "description": "The region where your Google Cloud Run service is deployed",
+            "type": "text",
+            "required": true,
+            "default": "us-central1"
         }
     ],
     "events": [
